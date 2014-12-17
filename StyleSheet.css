@@ -1,0 +1,120 @@
+*{
+
+
+
+}
+#topbar{
+
+right: 0%;
+top: 2%;
+left: 0%;
+bottom: 64%; 
+background: rgba(0,0,0,0) url("topBar.png") repeat-x left top;
+}
+#gamemenu{
+right: 65%;
+left: 20%;
+top: 23%;
+bottom: 25%;
+
+
+}
+#canvas{
+right: 20%;
+left: 40%;
+top: 23%;
+bottom: 25%;
+
+}
+#info{
+right: 15%;
+left: 15%;
+top: 78%;
+bottom: 2%;
+}
+#info *{
+position: relative;
+//padding: 10px;
+font-family: Arial;
+}
+#info h3{
+border-bottom: 1px black solid;
+}
+#info h1{
+bottom: 60%;
+
+}#info p{
+//right: 85%;
+
+
+}
+#contact{
+left: 10%;
+top: 23%;
+right: 10%;
+bottom: 20%;
+}
+
+#homeMenu{
+top: 23%;
+bottom: 0%;
+left: 10%;
+right: 10%;
+}
+#container{
+background-image: url(bricks.png);
+right: 0%;
+top: 0%;
+left: 0%;
+bottom: 0%;
+z-index: -1;
+}
+.class1{
+border: 30px solid rgba(0,0,0,.1);
+border-image: url(div_border.png) 30 30 repeat;
+position: absolute;
+background: #000000 url(div_background.png) repeat left top;
+z-index: 1;
+}
+.class0{
+position: absolute;
+//border: 2px red ridge;
+z-index: 1;
+}
+.class2{
+position: relative;
+padding: 9px;
+
+width: 100%;
+height: 20%;
+}
+button{
+position: relative;
+left: 90px;
+padding-left: 90px;
+
+}
+button h4{
+position: relative;
+right: 100%;
+
+}
+li button{
+left: 2%;
+}
+
+body{
+
+
+}
+div{
+
+}
+ul{
+list-style-image: url(sheild.png);
+position: inherit;
+left: 10%; 
+width: 65%;
+
+
+}
