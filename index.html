@@ -7,34 +7,19 @@
 
 <div class="class0" id="topbar">
 <h1>Dave && Mike - Javascript/HTML5/CSS</h1>
-<button onclick="site.load(site.home)"><h4>Home</h4></button>
-<button onclick="site.load(site.games)"><h4>Games</h4></button>
-<button onclick="site.load(site.contact)"><h4>Contact</h4></button>
+<button id="topBarButton" onclick="site.load(site.home)"><h4>Home</h4></button>
+<button id="topBarButton" onclick="site.load(site.games)"><h4>Games</h4></button>
+<button id="topBarButton" onclick="site.load(site.contact)"><h4>Contact</h4></button>
 </div>
 
 <div class="class0" id="container">
 
-			<div id="homeMenu" class="class1"></div>
-				<!--<div class="class1" id="gamemenu">
-					<ul>
-					
-						<li>
-						<button class="class2" id="button1"></button>	
-						</li>
-						
-						<li>
-						<button class="class2" id="button2"></button>
-						</li>
-						
-						<li>
-						<button class="class2" id="button3"></button>
-						</li>
-						
-					</ul>
-				</div> -->
+			
 </div>
 <script src="pages.js"></script>
 <script src="animation.js"></script>
-
+<script>
+site.load(site.games);
+</script>
 </body>
 </html>
